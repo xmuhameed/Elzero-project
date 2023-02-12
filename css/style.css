@@ -1214,20 +1214,6 @@ header .container .mega-menu ul li a i {
   -ms-border-radius: 200px;
   -o-border-radius: 200px;
 }
-@media (max-width: 767px) {
-  .events .form {
-    width: 95vw;
-  }
-  .events .form .email {
-    width: 70%;
-    padding: 0;
-  }
-  .events .form .submit {
-    width: 42%;
-    padding: 0;
-    font-size: 12px;
-  }
-}
 .events .form .email {
   border: none;
   padding: 10px 0 10px 20px;
@@ -1261,6 +1247,22 @@ header .container .mega-menu ul li a i {
   -moz-border-radius: 200px;
   -ms-border-radius: 200px;
   -o-border-radius: 200px;
+}
+@media (max-width: 767px) {
+  .events .form {
+    width: 95vw;
+  }
+  .events .form .email {
+    width: 65vw;
+    padding: 0;
+    padding-left: 10px;
+  }
+  .events .form .submit {
+    width: 35vw;
+    padding: 0;
+    font-size: 16px;
+    font-size: 12px;
+  }
 }
 /* events end */
 /* picing plans start */
